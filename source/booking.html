@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Designer Furniture</title>
+</head>
+
+<body class="page__body">
+    <header class="page-header">
+        <a class="page-header__logo" href="/">
+            <span class="visually-hidden">Site Logo</span>
+            <img src="images/logo.svg" width="226" height="30" alt="Barbershop 'Borodinski' Logo">
+        </a>
+        <nav class="main-nav">
+            <button class="main-nav__toggle" type="button">
+                <span class="visually-hidden">Open the menu</span>
+
+            </button>
+            <ul class="main-nav__list site-list">
+                <li class="site-list__item  site-list__link--current">
+                    <a class="site-list__link" href="#">
+                        ГЛАВНАЯ
+                    </a>
+                </li>
+                <li class="site-list__item">
+                    <a class="site-list__link" href="#">
+                        НАШИ РАБОТЫ
+                    </a>
+                </li>
+                <li class="site-list__item">
+                    <a class="site-list__link" href="#">
+                        ЗАПИСАТЬСЯ
+                    </a>
+                </li>
+                <li class="site-list__item">
+                    <a class="site-list__link" href="#">
+                        НАШИ РАБОТЫ
+                    </a>
+                </li>
+                <li class="site-list__item">
+                    <a class="site-list__link" href="#">
+                        HTML ACADEMY
+                    </a>
+                </li>
+            </ul>
+            <div class="main-nav__list user-list">
+                <button class="user-nav__button">
+                    <span class="visually-hidden">Login To the website</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <h1 class="visually-hidden">Barbershop "Borodinski" - The True Men's classic</h1>
+        <section class="booking">
+            <h2 class="booking__title">
+                ЗАПИСЬ НА СТРИЖКУ
+            </h2>
+            <a href="booking__back-button button">
+                НА ГЛАВНУЮ
+            </a>
+            <form class="booking__form form" action="https://echo.htmlacademy.ru/" method="POST">
+                <fieldset class="form__fieldset">
+                    <legend class="form__title">
+                        Who you are?
+                    </legend>
+                    <label for="surename">Фамилия</label>
+                    <input type="text" id="surename" placeholder="Фамилия">
+
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" placeholder="Имя">
+
+                    <label for="middle-name">Отчество</label>
+                    <input type="text" id="middle-name" placeholder="Отчество">
+                </fieldset>
+
+                <fieldset class="form__fieldset">
+                    <legend class="form__title">
+                        Where we can contact you?
+                    </legend>
+                    <label for="phone-number">Контактный телефон</label>
+                    <input type="number" id="phone-number" placeholder="Контактный телефон">
+
+                    <label for="email">Контактный e-mail</label>
+                    <input type="email" id="email" placeholder="Контактный e-mail">
+                </fieldset>
+
+                <fieldset class="form__fieldset">
+                    <legend class="form__title">
+                        Where we can contact you?
+                    </legend>
+                    <label for="additional-info">Доп. информация для мастера</label>
+                    <input type="text" id="additional-info" placeholder="Доп. информация для мастера">
+                </fieldset>
+
+                <fieldset class="form__fieldset">
+
+                    <legend class="form__title">
+                        ВЫБЕРИТЕ МОДЕЛЬ БОРОДЫ:
+                    </legend>
+                    <ul class="form__filter-list">
+                        <li class="form__filter-item">
+                            <label class="form__label">
+                                <input class="visually-hidden control-input" type="radio" id="beard-field-1"
+                                    name="beard-field-1" value="Admiral Shaped Beard">
+                                <span class="form__mark"></span>
+                                <span class="form__label-title" for="beard-field-1">адмирал</span>
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+
+                <fieldset class="form__fieldset">
+                    <legend class="form__title">
+                        ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ:
+                    </legend>
+                    <ul class="form__filter-list">
+                        <li class="form__filter-item">
+                            <label class="form__label">
+                                <input class="visually-hidden control-input" type="checkbox" id="services-field-1"
+                                    name="services-field-1" value="Admiral Shaped Beard">
+                                <span class="form__mark"></span>
+                                <span class="form__label-title" for="services-field-1">Подкрасить бороду</span>
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <button class="form__button" type="submit">
+                    ОТПРАВИТЬ ЗАЯВКУ
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="page-footer">
+
+        <div class="page-footer__wrapper">
+            <div class="page-footer__contacts contacts">
+                <b class="contacts__title">
+                    Барбершоп Бородинский
+                </b>
+                <p class="contacts__text">
+                    г. Санкт-Петербург, ул. Большая Конюшенная 19/8
+                    <a class="contacts-phone" href="+78125556666">
+                        +7 (812) 555-66-66
+                    </a>
+                </p>
+            </div>
+
+            <div class="page-footer__socials socials">
+                <h3 class="visually-hidden">Find Us on social network</h3>
+                <ul class="socials__list">
+                    <li class="socials__item">
+                        <a class="socials__link socials__link--vkontakte" href="#">
+                            <span class="visually-hidden">Find Us on Vkontakte</span>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link socials__link--youtube" href="#">
+                            <span class="visually-hidden">Find Us on Youtube</span>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link socials__link--telegram" href="#">
+                            <span class="visually-hidden">Find Us on Telegram</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="page-footer__copyright copyright">
+                <b class="copyright__title">Разработано:</b>
+                <a class="copyright-link" href="#">
+                    HTMLACADEMY
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
