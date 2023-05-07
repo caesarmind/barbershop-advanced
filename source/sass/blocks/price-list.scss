@@ -1,0 +1,10 @@
+.price-list__title {
+	font-size: 30px;
+	line-height: 30px;
+
+	@include reset("heading");
+}
+
+.price-list__list {
+	@include reset("list");
+}

@@ -1,115 +1,128 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-<head>
+<head class="page">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Designer Furniture</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page__body">
     <header class="page-header">
         <a class="page-header__logo" href="/" >
             <span class="visually-hidden">Site Logo</span>
-            <img src="images/logo.svg" width="226" height="30" alt="Barbershop 'Borodinski' Logo">
+            <img src="images/logo-mobile.svg" width="226" height="30" alt="Barbershop 'Borodinski' Logo">
         </a>
         <nav class="main-nav">
             <button class="main-nav__toggle" type="button">
                 <span class="visually-hidden">Open the menu</span>
 
             </button>
-            <ul class="main-nav__list site-list">
-                <li class="site-list__item  site-list__link--current">
-                    <a class="site-list__link" href="#">
-                        ГЛАВНАЯ
-                    </a>
-                </li>
-                <li class="site-list__item">
-                    <a class="site-list__link" href="#">
-                        НАШИ РАБОТЫ
-                    </a>
-                </li>
-                <li class="site-list__item">
-                    <a class="site-list__link" href="#">
-                        ЗАПИСАТЬСЯ
-                    </a>
-                </li>
-                <li class="site-list__item">
-                    <a class="site-list__link" href="#">
-                        НАШИ РАБОТЫ
-                    </a>
-                </li>
-                <li class="site-list__item">
-                    <a class="site-list__link" href="#">
-                        HTML ACADEMY
-                    </a>
-                </li>
-            </ul>
-            <div class="main-nav__list user-list">
-                <button class="user-nav__button">
-                    <span class="visually-hidden">Login To the website</span>
-                </button>
-            </div>
+
+			<div class="main-nav__wrapper">
+				<ul class="main-nav__list site-list">
+					<li class="site-list__item">
+						<a class="site-list__link site-list__link--current" href="#">
+							ГЛАВНАЯ
+						</a>
+					</li>
+					<li class="site-list__item">
+						<a class="site-list__link" href="#">
+							НАШИ РАБОТЫ
+						</a>
+					</li>
+					<li class="site-list__item">
+						<a class="site-list__link" href="#">
+							ЗАПИСАТЬСЯ
+						</a>
+					</li>
+					<li class="site-list__item">
+						<a class="site-list__link" href="#">
+							НАШИ РАБОТЫ
+						</a>
+					</li>
+					<li class="site-list__item">
+						<a class="site-list__link" href="#">
+							HTML ACADEMY
+						</a>
+					</li>
+				</ul>
+				<div class="main-nav__list user-list">
+					<button class="user-list__button">
+						<span class="visually-hidden">Login To the website</span>
+					</button>
+				</div>
+			</div>
+
         </nav>
     </header>
 
     <main class="page-main">
         <h1 class="visually-hidden">Barbershop "Borodinski" - The True Men's classic</h1>
         <section class="stats">
-            <header class="stats__header">
-                <h2 class="visually-hidden">
-                    Statistic of Barbershop
-                </h2>
-                <p class="stats__slogan">
-                    Стрижка у нас <br>
-                    это выгодно!
-                </p>
-                <p class="stats__intro">
-                    Мужская стрижка требует точного подхода. Обратимся к статистике:
-                </p>
-            </header>
-            <dl class="stats__list">
-                <div class="stats__item">
-                    <dt class="stats__number">
-                        1500<sup>*</sup>
-                    </dt>
-                    <dd class="stats__description">
-                        рублей<br>
-                        вложений
-                    </dd>
-                </div>
-                <div class="stats__item">
-                    <dt class="stats__number">
-                        7 200
-                    </dt>
-                    <dd class="stats__description">
-                        секунд<br>
-                        времени мастера
-                    </dd>
-                </div>
-                <div class="stats__item">
-                    <dt class="stats__number">
-                        90 000<sup>*</sup>
-                    </dt>
-                    <dd class="stats__description">
-                        постриженных<br>
-                        волос
-                    </dd>
-                </div>
-                <div class="stats__item">
-                    <dt class="stats__number">
-                        500 0000<sup>*</sup>
-                    </dt>
-                    <dd class="stats__description">
-                        лайков и <br>
-                        комплиментов
-                    </dd>
-                </div>
-            </dl>
-            <small class="stats__legend stats__legend--bottom">
-                * — приведённые данные ложь
-            </small>
+			<div class="stats__wrapper">
+				<header class="stats__header">
+					<h2 class="visually-hidden">
+						Statistic of Barbershop
+					</h2>
+					<p class="stats__slogan">
+						Стрижка у нас <br>
+						это выгодно!
+					</p>
+					<p class="stats__legend stats__legend--top">
+						<small>
+							* — приведённые данные ложь
+						</small>
+					</p>
+					<p class="stats__intro">
+						Мужская стрижка требует точного подхода. Обратимся к статистике:
+					</p>
+				</header>
+				<dl class="stats__list">
+					<div class="stats__item">
+						<dt class="stats__number">
+							1500<sup>*</sup>
+						</dt>
+						<dd class="stats__description">
+							рублей<br>
+							вложений
+						</dd>
+					</div>
+					<div class="stats__item">
+						<dt class="stats__number">
+							7 200
+						</dt>
+						<dd class="stats__description">
+							секунд<br>
+							времени мастера
+						</dd>
+					</div>
+					<div class="stats__item">
+						<dt class="stats__number">
+							90 000<sup>*</sup>
+						</dt>
+						<dd class="stats__description">
+							постриженных<br>
+							волос
+						</dd>
+					</div>
+					<div class="stats__item">
+						<dt class="stats__number">
+							500 0000<sup>*</sup>
+						</dt>
+						<dd class="stats__description">
+							лайков и <br>
+							комплиментов
+						</dd>
+					</div>
+				</dl>
+				<small class="stats__legend stats__legend--bottom">
+					* — приведённые данные ложь
+				</small>
+			</div>
         </section>
         <section class="advantages">
-            <div class="advanateges__wrapper slider">
+            <div class="advantages__wrapper slider">
+
                 <ul class="advantages__list slider__list">
                     <li class="advantages__item advantages__item--fast slider__item">
                         <h3 class="advantages__title">
@@ -154,7 +167,8 @@
                     <li class="news__item">
                         <a class="news__link" href="#">
                             <time class="news__date" datetime="2022-09-29">
-                                <b class="news__day">29</b> СЕНТ
+                                <b class="news__day">29</b>
+								                <span class="news__month">СЕНТ</span>
                             </time>
                             <p class="news__description">
                                 Нам наконец завезли
@@ -167,7 +181,8 @@
                     <li class="news__item">
                         <a class="news__link" href="#">
                             <time class="news__date" datetime="2022-09-19">
-                                <b class="news__day">19</b> СЕНТ
+                                <b class="news__day">19</b>
+								                <span class="news__month">СЕНТ</span>
                             </time>
                             <p class="news__description">
                                 В нашей команде пополнение, Борис «Бритва» Стригунец, пополнил наши стройные ряды. Спешите записаться!
@@ -176,8 +191,9 @@
                     </li>
                 </ul>
                 <a class="news__to-all button" type="button">
-                    ПОКАЗАТЬ ВСЕ
-                </button>
+                    ПОКАЗАТЬ ВСЕ				
+                </a>
+
             </div>
         </section>
 
@@ -185,7 +201,7 @@
             <div class="reviews__wrapper slider">
                 <h2 class="reviews__title">ОТЗЫВЫ О НАС</h2>
                 <div class="reviews__list slider__list">
-                    <blockquote class="reviews__item reviews-item--current slider__item">
+                    <blockquote class="reviews__item reviews__item--current slider__item">
                         <img class="reviews__author-image" width="50" height="33" src="images/picture-travis-mobile@1x.jpg">
                         <div class="reviews__author-info">
                             <city class="reviews__author-name">Трэвис Баркер</city>
@@ -231,10 +247,11 @@
                 </b>
                 <p class="contacts__text">
                     г. Санкт-Петербург, ул. Большая Конюшенная 19/8
-                    <a class="contacts-phone" href="+78125556666">
-                        +7 (812) 555-66-66
-                    </a>
                 </p>
+                <a class="contacts-phone" href="+78125556666">
+                  +7 (812) 555-66-66
+                </a>
+
             </div>
 
             <div class="page-footer__socials socials">
@@ -261,7 +278,7 @@
 
             <div class="page-footer__copyright copyright">
                 <b class="copyright__title">Разработано:</b>
-                <a class="copyright-link" href="#">
+                <a class="copyright__link" href="#">
                     HTMLACADEMY
                 </a>
             </div>

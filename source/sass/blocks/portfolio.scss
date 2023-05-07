@@ -1,0 +1,19 @@
+.portfolio__list {
+	@include reset("list");
+}
+
+.portfolio__card-title {
+	font-size: 24px;
+	line-height: 27px;
+	font-weight: 700;
+}
+
+.portfolio__tags-list {
+	display: flex;
+	@include reset("list");
+}
+
+.portfolio__tags-item  {
+	font-size: 16px;
+	text-transform: uppercase;
+}
