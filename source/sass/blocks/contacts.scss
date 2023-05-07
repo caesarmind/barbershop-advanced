@@ -1,0 +1,16 @@
+.contacts {
+	padding: 33px 20px 26px;
+	text-align: center;
+}
+
+.contacts__title {
+	font-weight: 700;
+}
+
+.contacts-phone {
+	font-weight: 700;
+	padding: 12px 75px;
+	border: 1px solid $gray-light;
+	text-decoration: none;
+	color: $white;
+}

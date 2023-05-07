@@ -17,7 +17,8 @@
 		"w3c": "gulp validateMarkup --silent",
 		"editorconfig": "editorconfig-cli",
 		"lint": "gulp lint && npm run editorconfig ",
-		"test": "npm run lint"
+		"test": "npm run lint",
+		"compsas": "gulp compileSass"
 	},
 	"editorconfig-cli": [
 		"*.js",
